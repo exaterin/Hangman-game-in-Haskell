@@ -37,4 +37,3 @@ game word file = do
       else do 
         putStrLn [if elem x guess then x else '-' | x <- word]
         game word file
-
